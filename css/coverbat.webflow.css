@@ -1,3 +1,11 @@
+@font-face {
+  font-family: Nexa;
+  src: url('../fonts/Nexa-Heavy.ttf') format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --white: #d2d2d2;
   --black: #2d2d2d;
@@ -118,7 +126,9 @@ body {
 
 .coverart {
   aspect-ratio: 1;
+  border-radius: 1vw;
   width: auto;
+  box-shadow: 0 0 #0000, 0 2px .2px #00000006, 0 4px .4px #00000007, 0 6.1px .7px #00000008, 0 8.3px .9px #00000009, 0 10.7px 1.2px #00000009, 0 13.5px 1.6px #0000000a, 0 16.6px 2.1px #0000000a, 0 20.2px 2.7px #0000000a, 0 24.6px 3.5px #0000000b, 0 30.1px 4.4px #0000000b, 0 36.8px 5.8px #0000000b, 0 45.5px 7.5px #0000000b, 0 56.9px 9.9px #0000000b, 0 72.2px 13.2px #0000000c, 0 93.6px 17.8px #0000000c, 0 125px 24.8px #0000000c, 0 175.1px 36px #0000000d, 0 270.8px 57.8px #0000000e;
 }
 
 .gallery-spacing {
