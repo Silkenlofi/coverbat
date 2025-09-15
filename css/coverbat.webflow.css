@@ -74,7 +74,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   font-family: Nexa, Arial, sans-serif;
-  font-size: 5.052vw;
+  font-size: 4vw;
   font-weight: 900;
   line-height: 1;
 }
@@ -154,15 +154,6 @@ body {
   line-height: 1;
 }
 
-.icon-embed-xxsmall {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 2vw;
-  height: 2vw;
-  display: flex;
-}
-
 .div-block-2 {
   grid-column-gap: .521vw;
   grid-row-gap: .521vw;
@@ -212,10 +203,6 @@ body {
   color: var(--black);
 }
 
-.div-block-3 {
-  height: 21.458vw;
-}
-
 .utility-page-wrap {
   justify-content: center;
   align-items: center;
@@ -236,6 +223,15 @@ body {
 .utility-page-form {
   flex-direction: column;
   align-items: stretch;
+  display: flex;
+}
+
+.icon-embed-xxsmall-2 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1.4vw;
+  height: 1.4vw;
   display: flex;
 }
 
@@ -305,17 +301,20 @@ body {
     position: relative;
     top: 0;
   }
-
-  .arrow {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 479px) {
+  .div-block.white {
+    padding-top: 14vw;
+    padding-bottom: 8vw;
+  }
+
   .div-block.black {
     justify-content: flex-start;
     align-items: center;
     min-height: auto;
+    padding-top: 8vw;
+    padding-bottom: 8vw;
   }
 
   .heading {
@@ -323,7 +322,7 @@ body {
   }
 
   .title-spacing {
-    height: 4vw;
+    height: 6vw;
   }
 
   .text-block {
@@ -334,26 +333,38 @@ body {
     height: 3vw;
   }
 
+  .gallery {
+    font-size: 5vw;
+  }
+
   .grid {
-    grid-column-gap: 4vw;
-    grid-row-gap: 4vw;
+    grid-column-gap: 6vw;
+    grid-row-gap: 6vw;
     grid-template-columns: 1fr 1fr;
   }
 
-  .links-spacing {
-    height: 6vw;
+  .gallery-spacing, .links-spacing {
+    height: 8vw;
   }
 
   .links-spacing.smaller {
-    height: 1.8vw;
+    height: 3vw;
   }
 
   .social-text {
     font-size: 3.4vw;
   }
 
-  .bottom-ty-text, .bottom-ty-text._0-729vw {
+  .bottom-ty-text {
+    font-size: 3vw;
+  }
+
+  .bottom-ty-text._0-729vw {
     font-size: 2.8vw;
+  }
+
+  .icon-embed-xxsmall-2 {
+    display: none;
   }
 }
 
